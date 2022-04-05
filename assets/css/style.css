@@ -1,0 +1,190 @@
+html{
+    scroll-behavior: smooth;
+}
+
+body, * {
+    margin: 0;
+    border: 0;
+    padding: 0;
+    font-family: 'Raleway', sans-serif;
+}
+
+body {
+    background-color: black;
+    color: white;
+}
+
+header {
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    margin-top: 0;
+    margin-bottom: 5rem;
+    margin-left: 0;
+    margin-right: 0;
+    width: auto;
+    height: auto;
+}
+
+.svg {
+    width: 30px;
+    height: 30px;
+    background: none;
+    
+}
+
+.navbar, #navbarNav, .navbar-collapse, li {
+    background: none;
+    margin: 0 20px;
+}
+
+.nav-link {
+    color: rgb(27, 21, 21);
+}
+
+.linea {
+    display: block;
+    width: 100%;
+    margin-bottom: 1em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 1px;
+    color:  #328998;
+    background: #328998;
+}
+.img-responsive {
+    display: block;
+    max-width: 100%;
+    height: 50%;
+}
+
+.card {
+    margin: 0 20px;
+    background-color: #328998;
+}
+
+
+.card-group {
+    border: 1px black;
+    margin-bottom: 100px;
+}
+
+
+.card-title {
+    font-size: 16pt;
+    font-weight: 400;
+    text-align: left;
+    color: #ffffff;
+}
+
+
+.card-text {
+    font-size: 12pt;
+    font-weight: 400;
+    text-align: left;
+    color: #ffffff;
+}
+
+.card:hover {
+    background-color: red;
+    color: black;
+}
+
+
+.card-img-top {
+    padding: 2px;
+}
+
+#blogCarousel {
+    column-gap: 10px;
+    margin-bottom: 60px;
+}
+
+.carousel-indicators li {
+    border: 0;
+    margin-bottom: 20px;
+    border-radius: 50%;
+    width: 13px;
+    height: 13px;
+    background-color: rgb(255, 255, 255);
+}
+
+#contacto {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    
+}
+
+.typeform-widget {
+    margin-bottom: 50px;
+}
+
+#rrss {
+    display: flex;
+    justify-content: right;
+    height: 70%;
+    
+}
+
+
+.flex-item {
+    padding: 10px;
+    width: 100%;
+    height: 50px;
+    list-style: none;
+    margin-top: 20px;
+    background-color: #328998;
+}
+
+.flex-item li i {
+    float: right;
+    color: #ffffff;
+    margin-right: 20px;
+}
+
+.logoText {
+    padding: 5px;
+    float: left;
+    color: #ffffff;
+}
+
+
+
+
+@media only screen and (max-width: 576px) {
+    
+    header {
+        background-size: contain;
+        background-position: top;
+        margin-bottom: 0;
+    }
+
+    h3 {
+        margin-top: 0;
+    }
+
+    .col1 {
+        text-align: justify;
+        margin: 30px;
+    }
+
+    .col3 {
+        text-align: justify;
+        margin: 30px;
+    }
+
+    .col2 {
+        text-align: justify;
+        margin: 30px;
+    }
+    .carousel-indicators li {
+        display: none;
+    }
+
+    figcaption, .qs {
+        display: none;
+    }
+}
+
