@@ -32,11 +32,11 @@ $(document).ready(function () {
 
     $(".card").hover(
         function () {
-            var cardChange = $(this); // caching $(this)
+            var cardChange = $(this); 
             cardChange.css("color", "black");
         },
         function () {
-            var cardChange = $(this); // caching $(this)
+            var cardChange = $(this); 
             cardChange.css("color", "black");
         }
     );
